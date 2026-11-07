@@ -146,3 +146,12 @@ After completing this lab, you will:
 ✅ Structure projects for portability and collaboration
 
 These scripting and packaging skills are essential for building automation tools and working in modern Python development workflows.
+# Completed lab: Module 6 — Python Automation
+
+Run `python -m lib.generate_log`. `generate_log(data)` validates a list, writes `log_YYYYMMDD.txt`, and returns its filename. `fetch_data()` uses requests with a timeout and reports errors. Install `requirements.txt`; it was generated with pip freeze in an isolated environment.
+
+Validation: 5 tests passed; a live JSONPlaceholder request and timestamped log write succeeded. Run `python -m pytest --assert=plain -q` from the repository root after installing test dependencies. The plain-assertion option supports the pinned pytest on Python 3.14.
+
+![Verified test results](docs/test-results.png)
+
+The image shows captured test output rendered for documentation. Canvas accepts this repository URL for submission.
